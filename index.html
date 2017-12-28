@@ -10,29 +10,35 @@
   <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
-  <title>Your Website</title>
+	
+  <script type="text/javascript" src="js/script.js"></script>
+	
+
+  <title>GameHUB - The home of honest game reviews.</title>
 </head>
 
 <body>
 	<a name="homepage"></a>
 	<div id="viewheight">
 			<nav>
+				<label for="toggle-1" id="mobile_menu">&#9776; Menu</label>
+				<input type="checkbox" id="toggle-1"/>
 				<ul>
 					<li><a href="#homepage">Homepage</a></li>
 					<li><a href="#reviews">Reviews</a></li>
 					<li><a href="#newsarticles">News Articles</a></li>
 					<li><a href="#about">About</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li class="nb"><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 			<section id="homepage-banner">
 				<h1>Welcome to GameHUB</h1>
 				<span>The home of honest game reviews, with a personal touch.</span>
 			</section>
-		<div id="home-circle"><a href="#content"><span>&#10162;</span></a></div>
+		<div id="home-circle"><a href="#reviews"><span>&#10162;</span></a></div>
 	</div>
 	
-	<a name="content reviews"></a>
+	<a name="reviews"></a>
 	<section class="whitebackground reviews">
 		<div class="wrapper">
 		 <h1>Game Reviews</h1>
@@ -120,8 +126,8 @@
 		</div>
 	</section>
 	
-	<a name="contact"></a>
-	<section class="whitebackground content">
+	<a name="contact" id="contact"></a>
+	<section class="whitebackground contact">
 		<div class="wrapper">
 			<h1>Contact</h1>
 			<article class="fullwidth">
