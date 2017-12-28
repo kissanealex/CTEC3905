@@ -1,10 +1,11 @@
 <!DOCTYPE HTML>
 
-<html>
+<html lang="en">
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
@@ -17,7 +18,7 @@
 </head>
 
 <body>
-	<a name="homepage"></a>
+	<a id="homepage"></a>
 	<div id="viewheight">
 			<nav>
 				<label for="toggle-1" id="mobile_menu">&#9776; Menu</label>
@@ -37,7 +38,7 @@
 		<a href="#reviews"><span id="home-circle" class="bounce"></span></a>
 	</div>
 	
-	<a name="reviews"></a>
+	<a id="reviews"></a>
 	<section class="whitebackground reviews">
 		<div class="wrapper">
 		 <h1>Game Reviews</h1>
@@ -67,7 +68,7 @@
 		</div>
 	</section>
 	
-	<a name="newsarticles"></a>
+	<a id="newsarticles"></a>
 	<section class="whitebackground content">
 		<div class="wrapper">
 			<h1>News Articles</h1>
@@ -96,15 +97,16 @@
 		</div>
 	</section>
 	
-	<a name="about"></a>
+	<a id="about"></a>
 	<section class="whitebackground content">
 		<div class="wrapper">
+		<h1>About</h1>
 			<article class="fullwidth">
-				<h1>FlexBox</h1>
-				<header>
-					<h2>Article title</h2>
-				</header>
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+							<h2>FlexBox</h2>
+					<div class="parent">  
+					  <div class="left">Left</div>
+					  <div class="right">Right</div>
+					</div>  
 			</article>
 			
 			<article class="fullwidth">
@@ -124,25 +126,25 @@
 		</div>
 	</section>
 	
-	<a name="contact" id="contact"></a>
+	<a id="contact"></a>
 	<section class="whitebackground contact">
 		<div class="wrapper">
 			<h1>Contact</h1>
 			<form method="post" action="https://www.elizabethcastro.com/html6ed/examples/forms/showform.php">
 						<label>Firstname</label><br/>
-						<input type="text" id="firstname" name="firstname"/><br/>
+						<input type="text" id="firstname"/><br/>
 
 						<label>Surname</label><br/>
-						<input type="text" id="surname" name="surname"/><br/>
+						<input type="text" id="surname"/><br/>
 			
 						<label>Email</label><br/>
-						<input type="text" id="email" name="email"/><br/>
+						<input type="text" id="email"/><br/>
 			
 						<label>Subject</label><br/>
-						<input type="text" id="subject" name="subject"/><br/>
+						<input type="text" id="subject"/><br/>
 				
 						<label>Reason</label><br/>
-						  <select name="reason" id="reason">
+						  <select id="reason">
 						   <option value="1">Complaint</option>
 						   <option value="2">Review a game</option>
 						   <option value="3">Bug report</option>
@@ -152,9 +154,9 @@
 						 <br/>
 						 
 						<label>Message</label><br/>
-						<textarea id="message" name="message" rows="5" cols="2"></textarea><br/>
+						<textarea id="message" rows="5" cols="2"></textarea><br/>
 						
-						<button class="submit-button" name="Submit">Submit</button>
+						<button class="submit-button" id="Submit">Submit</button>
 					</form>
 		</div>
 	</section>
