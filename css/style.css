@@ -20,6 +20,7 @@ nav ul {
 	list-style: none;
 	text-align: center;
 		margin: 0;
+		padding: 0;
 }
 
 nav li {
@@ -85,6 +86,52 @@ article h2 {
 	color: #2c3e50;
 	font-size: 40px;
 	margin: 0px;
+	margin-bottom: 20px;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+.submit-button {
+	padding: 20px;
+	margin-top: 10px;
+	background-color: #111111;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+	text-align: center;
+	width: 150px;
+	display: inline-block;
+	border: none;
+}
+input {
+    margin-top: 10px;
+	margin-bottom: 10px;
+    padding: 10px;
+    color: #95a5a6;
+    border-radius: 3px;
+    border: 1px #ccc solid;
+	width: 30%;
+}
+
+select {
+    margin-top: 10px;
+	margin-bottom: 10px;
+    padding: 10px;
+    color: #95a5a6;
+    border-radius: 3px;
+    border: 1px #ccc solid;
+	width: 30%;
+}
+
+textarea {
+    margin-top: 10px;
+    padding: 10px;
+    color: #95a5a6;
+    border-radius: 3px;
+    border: 1px #ccc solid;
+	width: 30%;
 }
 #viewheight {
 	display: block;
@@ -95,21 +142,16 @@ article h2 {
 
 #home-circle {
 	display: block;
-	border-radius: 50%;
-	width: 50px;
-	height: 50px;
-	background-color: rgb(189, 195, 199);
 	position: absolute;
     bottom: 0;
 	margin-bottom: 10px;
 	left: 49%;
 	color: rgb(44, 62, 80);
 	font-size: 40px;
-	-webkit-transform: rotate(90deg);	
-	-moz-transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	-o-transform: rotate(90deg);
-	transform: rotate(90deg);
+	border-style: solid;
+	border-width: 30px 30px 0 30px;
+	border-color: #ffffff transparent transparent transparent;
+	margin-bottom: 20px;
 }
 
 #home-circle a {
@@ -117,13 +159,7 @@ article h2 {
 		text-decoration: none;
 }
 #home-circle:hover {
-	background-color: rgb(236, 240, 241);
-}
-
-#home-circle span {
-	display: block;
-	padding-left: 8px;
-	margin-top: -4px;
+	border-color: rgb(236, 240, 241) transparent transparent transparent;;
 }
 
 #homepage-banner {
@@ -173,6 +209,7 @@ footer p {
 	text-align: center;
 	font-size: 30px;
 	margin-left: 10px;
+	float: top;
 }
 
 .articlemonth {
@@ -193,16 +230,25 @@ footer p {
 	cursor: pointer;
 }
 
-	#toggle-1 {
-		display: none;
-	}
+#toggle-1 {
+	display: none;
+}
+
+.bounce {
+ animation: bounce 2s infinite;
+ -webkit-animation: bounce 2s infinite;
+ -moz-animation: bounce 2s infinite;
+ -o-animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+ 40% {transform: translateY(-30px);}
+ 60% {transform: translateY(-15px);}
+}
 @media (min-width: 0px) and (max-width: 600px) {
 	nav ul li {
 		display: block;
-	}
-	
-	nav ul {
-		padding-left: 0px!important;
 	}
 	
 	#nav {
@@ -234,28 +280,46 @@ footer p {
 	
 	.halfwidth {
 		width: 100%;
+		margin: 0px!important;
 	}
 	
 	.wrapper h1 {
-		margin-top: 50%;
 		font-size: 25px;
-		margin-bottom: 20px;
 	}
 	
 	.wrapper {
-		width: 90%;
+		width: 90%!important;
 	}
 	
 	footer {
 		text-align: center;
 		line-height: 20px;
 	}
+	
+	textarea, input, select {
+		width: 93%;
+	}
 }
 
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 767px) {
+		.wrapper {
+		width: 90%!important;
+	}
 	
+		.halfwidth {
+		width: 100%;
+		margin: 0px!important;
+	}
+	
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+		.wrapper {
+		width: 90%!important;
+	}
 	
+		textarea, input, select {
+		width: 80%;
+	}
 }
