@@ -5,6 +5,7 @@ body, html {
 	background-image: url('https://images7.alphacoders.com/594/thumb-1920-594320.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+	background-position:center;
 	font-size: 14px;
 }
 nav {
@@ -77,6 +78,11 @@ article h2 {
 	padding: 20px;
 	margin-right: auto;
 	margin-left: auto;
+	
+}
+
+form {
+  text-align: center;
 }
 
 .wrapper h1 {
