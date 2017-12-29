@@ -28,6 +28,10 @@ This repository was created to complete the coursework for the CTEC3905 Front-en
 
 ### Nice Features
 
+#### Transitions
+The transition on the navigation is only a little feature but allows a sophisticated change between no background colour to the hover colour of blue.
+`transition: background-color 0.5s ease;`
+
 #### Keyframes
 The following code allows the arrow at the bottom of the screen to bounce smoothly and looks fantastic. This is done using keyframes as shown below. Booming tricky!
 ```
@@ -52,6 +56,18 @@ The website was developed with a basic, modern design in mind. The website is a 
 
 ## Javascript Development
 
+### Contact Page Alert
+
+When clicking on the submit button on the index the user is alerted via Javascript with a box statement explaining when they will receive an answer.
+```
+if(document.getElementById("Submit")){
+  document.getElementById("Submit").addEventListener("click", alertContact);
+}
+
+function alertContact() {
+  window.alert("Thank you for getting in touch. We will be back with you shortly. (Usually 24-48 hours)");
+}
+```
 ### Google Maps API
 
 Google maps API was implemented to show the location of the GameHUB headoffice. An API key had to be generated for the ability of the website being able to contact and communicate with the Google Application.
