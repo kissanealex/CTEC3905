@@ -12,6 +12,48 @@ This repository was created to complete the coursework for the CTEC3905 Front-en
 ### Wireframe 3
 ![Image of Wireframe 3](images/wireframe-3.jpg)
 
+## Site Map
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://kissanealex.github.io/CTEC3905/</loc>
+  <lastmod>2017-12-29T23:17:04+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://kissanealex.github.io/CTEC3905/#homepage</loc>
+  <lastmod>2017-12-29T23:17:04+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://kissanealex.github.io/CTEC3905/#reviews</loc>
+  <lastmod>2017-12-29T23:17:04+00:00</lastmod>
+</url>
+  
+<url>
+  <loc>https://kissanealex.github.io/CTEC3905/#newsarticles</loc>
+  <lastmod>2017-12-29T23:17:04+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://kissanealex.github.io/CTEC3905/#about</loc>
+  <lastmod>2017-12-29T23:17:04+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://kissanealex.github.io/CTEC3905/#contact</loc>
+  <lastmod>2017-12-29T23:17:04+00:00</lastmod>
+</url>
+
+</urlset>
+```
+
 ## CSS Development
   The CSS Development of this website was created using the following strcuture.
 - Structure
