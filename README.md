@@ -146,6 +146,15 @@ A test was conducted using 4 different individuals. Each individual was given ac
 
 ## References
 
+### Fonts used
+
+Google Fonts is a brilliant resource in which has made the typography on this website excell from Times New Roman or Helvetica!
+
+- Lato
+- Bungee
+- Press Start 2P
+- Passion One
+
 ### Sources used
 
 #### Background Image
@@ -153,3 +162,6 @@ Unknown, (2016), *Wallpapers and Gaming* [ONLINE]. Available at: http://tianyihe
 
 #### Wireframe iphone layout
 Anthony, G. (2013). *iPhone 5S Template.* Available: https://dribbble.com/shots/1310163-iPhone-5S-Template. Last accessed 26th Dec 2017.
+
+### Google Maps API Help
+Unknown. (2017). *Google Maps Tutorial.* Available: https://www.w3schools.com/graphics/google_maps_intro.asp. Last accessed 29th Dec 2017.
