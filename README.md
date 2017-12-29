@@ -26,6 +26,26 @@ This repository was created to complete the coursework for the CTEC3905 Front-en
 
 `@media (min-width: 0px) and (max-width: 600px)`
 
+### Nice Features
+
+#### Keyframes
+The following code allows the arrow at the bottom of the screen to bounce smoothly and looks fantastic. This is done using keyframes as shown below. Booming tricky!
+```
+.bounce {
+ animation: bounce 2s infinite;
+ -webkit-animation: bounce 2s infinite;
+ -moz-animation: bounce 2s infinite;
+ -o-animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+ 40% {transform: translateY(-30px);}
+ 60% {transform: translateY(-15px);}
+}
+```
+
+
 ## HTML Development
 
 The website was developed with a basic, modern design in mind. The website is a single-page site that has a modern sleek design. Using a combination of flat colours, the modern-looking square design with no curves, and a full-page-width design has allowed a website that is not only easy to navigate, but also extremely basic and easy to use. Content is easily available to read without annoying popups and having to wait for images to load.

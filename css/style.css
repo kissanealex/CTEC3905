@@ -18,13 +18,14 @@ nav {
 	position: fixed;
 	top: 0;
 	margin-top: 0px;
+  z-index: 2;
 }
 
 nav ul {
 	list-style: none;
 	text-align: center;
-		margin: 0;
-		padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 nav li {
@@ -43,13 +44,6 @@ nav ul li a {
 nav ul li a:hover {
 	background-color: rgb(52, 73, 94);
 	transition: background-color 0.5s ease;
-}
-
-.halfwidth {
-	width: 48%;
-	float: left;
-	margin: 1%;
-	background-color: white;
 }
 
 .fullwidth {
@@ -82,17 +76,19 @@ footer {
 	margin: 0px;
 }
 
-.parent {
+.wrap {
     display: flex;
     align-items: center;
 }
 
 .left {
   margin-right: auto;
+  padding: 5px;
 }
 	
 .right {
   margin-left: auto;
+  padding: 5px;
 }
 
 #mobile_menu {
@@ -168,11 +164,11 @@ select {
 }
 
 textarea {
-    margin-top: 10px;
-    padding: 10px;
-    color: #95a5a6;
-    border-radius: 3px;
-    border: 1px #ccc solid;
+  margin-top: 10px;
+  padding: 10px;
+  color: #95a5a6;
+  border-radius: 3px;
+  border: 1px #ccc solid;
 	width: 30%;
 }
 
@@ -227,8 +223,8 @@ footer p {
 }
 
 #home-circle a {
-		color: rgb(44, 62, 80);
-		text-decoration: none;
+  color: rgb(44, 62, 80);
+	text-decoration: none;
 }
 #home-circle:hover {
 	border-color: rgb(236, 240, 241) transparent transparent transparent;;
@@ -277,6 +273,12 @@ form {
 	
 }
 
+#googleMap {
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  z-index: 1;
+}
 /* Mobile/Tablet/Misc Device Responsiveness */
 
 @media (min-width: 0px) and (max-width: 600px) {
@@ -312,9 +314,10 @@ form {
 		font-size: 30px;
 	}
 	
-	.halfwidth {
+	.wrap {
 		width: 100%;
 		margin: 0px!important;
+    display: block;
 	}
 	
 	.wrapper h1 {
@@ -342,7 +345,8 @@ form {
 		width: 90%!important;
 	}
 	
-	.halfwidth {
+	.wrap {
+    display: block;
 		width: 100%;
 		margin: 0px!important;
 	}
