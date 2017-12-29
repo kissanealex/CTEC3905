@@ -1,13 +1,16 @@
+/* Structure */
+
 body, html {
 	font-family: 'Lato', sans-serif;
 	margin: 0;
 	padding: 0;
 	background-image: url('../images/background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 	background-position:center;
 	font-size: 14px;
 }
+
 nav {
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.8);
@@ -42,12 +45,6 @@ nav ul li a:hover {
 	transition: background-color 0.5s ease;
 }
 
-
-article h2 {
-	margin: 0!important;
-	color: #111111;
-	font-family: 'Passion One', cursive;
-}
 .halfwidth {
 	width: 48%;
 	float: left;
@@ -59,15 +56,6 @@ article h2 {
 	width: 100%;
 }
 
-.whitebackground {
-	background-color: white;
-	width: 100%;
-}
-
-.transbackground {
-	color: white;
-	width: 100%;
-}
 .clear {
 	clear:both;
 }
@@ -81,22 +69,64 @@ article h2 {
 	
 }
 
-form {
-  text-align: center;
+footer {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	color: white;
 }
 
-.wrapper h1 {
-	text-align: center;
-	font-family: 'Bungee', cursive;
-	border-bottom: 1px solid #ccc;
-	color: #2c3e50;
-	font-size: 40px;
+#viewheight {
+	display: block;
+	height: 100vh;
+	top: 0;
 	margin: 0px;
-	margin-bottom: 20px;
 }
 
-label {
-	margin-bottom: 10px;
+.parent {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+  margin-right: auto;
+}
+	
+.right {
+  margin-left: auto;
+}
+
+#mobile_menu {
+	display: none;
+	cursor: pointer;
+}
+
+#toggle-1 {
+	display: none;
+}
+
+.bounce {
+ animation: bounce 2s infinite;
+ -webkit-animation: bounce 2s infinite;
+ -moz-animation: bounce 2s infinite;
+ -o-animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+ 40% {transform: translateY(-30px);}
+ 60% {transform: translateY(-15px);}
+}
+
+/* Skin */
+
+.whitebackground {
+	background-color: white;
+	width: 100%;
+}
+
+.transbackground {
+	color: white;
+	width: 100%;
 }
 
 .submit-button {
@@ -111,23 +141,29 @@ label {
 	display: inline-block;
 	border: none;
 }
-input {
-    margin-top: 10px;
+
+label {
 	margin-bottom: 10px;
-    padding: 10px;
-    color: #95a5a6;
-    border-radius: 3px;
-    border: 1px #ccc solid;
+}
+
+
+input {
+  margin-top: 10px;
+	margin-bottom: 10px;
+  padding: 10px;
+  color: #95a5a6;
+  border-radius: 3px;
+  border: 1px #ccc solid;
 	width: 30%;
 }
 
 select {
-    margin-top: 10px;
+  margin-top: 10px;
 	margin-bottom: 10px;
-    padding: 10px;
-    color: #95a5a6;
-    border-radius: 3px;
-    border: 1px #ccc solid;
+  padding: 10px;
+  color: #95a5a6;
+  border-radius: 3px;
+  border: 1px #ccc solid;
 	width: 30%;
 }
 
@@ -138,61 +174,6 @@ textarea {
     border-radius: 3px;
     border: 1px #ccc solid;
 	width: 30%;
-}
-#viewheight {
-	display: block;
-	height: 100vh;
-	top: 0;
-	margin: 0px;
-}
-
-#home-circle {
-	display: block;
-	position: absolute;
-    bottom: 0;
-	margin-bottom: 10px;
-	left: 49%;
-	color: rgb(44, 62, 80);
-	font-size: 40px;
-	border-style: solid;
-	border-width: 30px 30px 0 30px;
-	border-color: #ffffff transparent transparent transparent;
-	margin-bottom: 20px;
-}
-
-#home-circle a {
-		color: rgb(44, 62, 80);
-		text-decoration: none;
-}
-#home-circle:hover {
-	border-color: rgb(236, 240, 241) transparent transparent transparent;;
-}
-
-#homepage-banner {
-	color: white;
-	text-align: center;
-	font-family: 'Bungee', cursive;
-	padding-top: 20%;
-}
-
-#homepage-banner h1 {
-	margin: 0;
-	font-size: 60px;
-	text-shadow: 0px 5px #000;
-}
-
-#homepage-banner span {
-	display: block;
-	font-size: 14px;
-	text-shadow: 0px 2px #000;
-	margin-top: 10px;
-	
-}
-
-footer {
-	background-color: rgba(0, 0, 0, 0.8);
-	width: 100%;
-	color: white;
 }
 
 footer p {
@@ -231,41 +212,75 @@ footer p {
 	color: white;
 }
 
-#mobile_menu {
-	display: none;
-	cursor: pointer;
+#home-circle {
+	display: block;
+	position: absolute;
+  bottom: 0;
+	margin-bottom: 10px;
+	left: 49%;
+	color: rgb(44, 62, 80);
+	font-size: 40px;
+	border-style: solid;
+	border-width: 30px 30px 0 30px;
+	border-color: #ffffff transparent transparent transparent;
+	margin-bottom: 20px;
 }
 
-#toggle-1 {
-	display: none;
+#home-circle a {
+		color: rgb(44, 62, 80);
+		text-decoration: none;
+}
+#home-circle:hover {
+	border-color: rgb(236, 240, 241) transparent transparent transparent;;
 }
 
-.bounce {
- animation: bounce 2s infinite;
- -webkit-animation: bounce 2s infinite;
- -moz-animation: bounce 2s infinite;
- -o-animation: bounce 2s infinite;
+#homepage-banner {
+	color: white;
+	text-align: center;
+	font-family: 'Bungee', cursive;
+	padding-top: 20%;
 }
 
-@keyframes bounce {
- 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
- 40% {transform: translateY(-30px);}
- 60% {transform: translateY(-15px);}
+/* Content */
+
+article h2 {
+	margin: 0!important;
+	color: #111111;
+	font-family: 'Passion One', cursive;
 }
 
-.parent {
-    display: flex;
-    align-items: center;
+form {
+  text-align: center;
 }
 
-   .left {
-        margin-right: auto;
-    }
+.wrapper h1 {
+	text-align: center;
+	font-family: 'Bungee', cursive;
+	border-bottom: 1px solid #ccc;
+	color: #2c3e50;
+	font-size: 40px;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+#homepage-banner h1 {
+	margin: 0;
+	font-size: 60px;
+	text-shadow: 0px 5px #000;
+}
+
+#homepage-banner span {
+	display: block;
+	font-size: 14px;
+	text-shadow: 0px 2px #000;
+	margin-top: 10px;
 	
-	  .right {
-        margin-left: auto;
-    }
+}
+
+/* Mobile/Tablet/Misc Device Responsiveness */
+
 @media (min-width: 0px) and (max-width: 600px) {
+  
 	nav ul li {
 		display: block;
 	}
@@ -321,11 +336,12 @@ footer p {
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
-		.wrapper {
+  
+	.wrapper {
 		width: 90%!important;
 	}
 	
-		.halfwidth {
+	.halfwidth {
 		width: 100%;
 		margin: 0px!important;
 	}
@@ -334,11 +350,12 @@ footer p {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-		.wrapper {
+  
+	.wrapper {
 		width: 90%!important;
 	}
 	
-		textarea, input, select {
+	textarea, input, select {
 		width: 80%;
 	}
 }
