@@ -1,5 +1,6 @@
 # CTEC3905
 
+This repository was created to complete the coursework for the CTEC3905 Front-end Web Development Module at Demontfort University. The website was developed using HTML5, CSS3 and Javascript. The website was initially designed with wireframes, then designed in a Adobe Photoshop .psd file, then finaly converted into pure code. 
 ## Wireframe Designs
 
 ### Wireframe 1
@@ -35,7 +36,7 @@ A test was conducted using 4 different individuals. Each individual was given ac
 
 ### Individual 1:
 
-	= Website looks nice
+	- Website looks nice
 	- Works well on phone
 	- Buttons are easy to click
 	- Colour combination is a little difficult to see. *This has now been addressed with the change of colour contrast.
@@ -60,8 +61,8 @@ A test was conducted using 4 different individuals. Each individual was given ac
 
 ## References
 
-### Image sources used
+### Sources used
 
+#### Background Image
 Unknown, (2016), *Wallpapers and Gaming* [ONLINE]. Available at: http://tianyihengfeng.com/wp-content/uploads/2016/06/wallpapers-gaming.jpg [Accessed 20 December 2017].
 
-### Misc Sources
