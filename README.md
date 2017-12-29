@@ -13,6 +13,10 @@ This repository was created to complete the coursework for the CTEC3905 Front-en
 ![Image of Wireframe 3](images/wireframe-3.jpg)
 
 ## CSS Development
+  The CSS Development of this website was created using the following strcuture.
+- Structure
+- Skin
+- Content
 
 ### Used Breakpoints
 
@@ -28,32 +32,35 @@ The website was developed with a basic, modern design in mind. The website is a 
 
 ## Javascript Development
 
+### Google Maps API
+
+Google maps API was implemented to show the location of the GameHUB headoffice. An API key had to be generated for the ability of the website being able to contact and communicate with the Google Application.
 ## User Testng
 
 A thorough test was conducted to ensure that the website in question was easy to use on both an iPhone 7, iPad Air, a Laptop and a Desktop Computer.
 
 A test was conducted using 4 different individuals. Each individual was given access to the website on each of the devices shown above. The 4 individuals were then asked to write down their comments on the site on a peice of paper, whether they were positive or negative.
 
-### Individual 1:
+### Individual 1
 
 	- Website looks nice
 	- Works well on phone
 	- Buttons are easy to click
 	- Colour combination is a little difficult to see. *This has now been addressed with the change of colour contrast.
 
-### Individual 2:
+### Individual 2
 
 	- Looks ok
 	- Strange that the page doesn't move
 	- Looks modern
 
-### Individual 3:
+### Individual 3
 
 	- Mobile menu is easy to use
 	- Looks modern
 	- Would like font to be bigger *User was visually challenged, so in this case making the font larger would be better for usage, but would compromise design.
 
-### Individual 4:
+### Individual 4
 
 	- iPad version of the website is easy to use
 	- Loads fast
@@ -66,3 +73,5 @@ A test was conducted using 4 different individuals. Each individual was given ac
 #### Background Image
 Unknown, (2016), *Wallpapers and Gaming* [ONLINE]. Available at: http://tianyihengfeng.com/wp-content/uploads/2016/06/wallpapers-gaming.jpg [Accessed 20 December 2017].
 
+#### Wireframe iphone layout
+Anthony, G. (2013). *iPhone 5S Template.* Available: https://dribbble.com/shots/1310163-iPhone-5S-Template. Last accessed 26th Dec 2017.
