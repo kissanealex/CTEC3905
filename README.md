@@ -13,7 +13,17 @@
 
 ## CSS Development
 
+### Used Breakpoints
+
+`@media (min-width: 768px) and (max-width: 1024px)`
+
+`@media (min-width: 600px) and (max-width: 767px)`
+
+`@media (min-width: 0px) and (max-width: 600px)`
+
 ## HTML Development
+
+The website was developed with a basic, modern design in mind. The website is a single-page site that has a modern sleek design. Using a combination of flat colours, the modern-looking square design with no curves, and a full-page-width design has allowed a website that is not only easy to navigate, but also extremely basic and easy to use. Content is easily available to read without annoying popups and having to wait for images to load.
 
 ## Javascript Development
 
@@ -51,5 +61,7 @@ A test was conducted using 4 different individuals. Each individual was given ac
 ## References
 
 ### Image sources used
+
+Unknown, (2016), *Wallpapers and Gaming* [ONLINE]. Available at: http://tianyihengfeng.com/wp-content/uploads/2016/06/wallpapers-gaming.jpg [Accessed 20 December 2017].
 
 ### Misc Sources
